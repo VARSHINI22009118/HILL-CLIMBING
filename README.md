@@ -1,8 +1,11 @@
 <h1>ExpNo 5 : Implement Simple Hill Climbing Algorithm</h1> 
+<br>
 <h3>Name: VARSHINI S A        </h3>
 <h3>Register Number:  212222100059    </h3>
+<br>
 <H3>Aim:</H3>
 <p>Implement Simple Hill Climbing Algorithm and Generate a String by Mutating a Single Character at each iteration </p>
+<br>
 <h2> Theory: </h2>
 <p>Hill climbing is a variant of Generate and test in which feedback from test procedure is used to help the generator decide which direction to move in search space.
 Feedback is provided in terms of heuristic function
@@ -10,6 +13,7 @@ Feedback is provided in terms of heuristic function
 
 
 <h2>Algorithm:</h2>
+<br>
 <p>
 <ol>
  <li> Evaluate the initial state.If it is a goal state then return it and quit. Otherwise, continue with initial state as current state.</li> 
@@ -28,7 +32,9 @@ Feedback is provided in terms of heuristic function
 
 </p>
 <hr>
+<br>
 <h3> Steps Applied:</h3>
+<br>
 <h3>Step-1</h3>
 <p> Generate Random String of the length equal to the given String</p>
 <h3>Step-2</h3>
@@ -39,6 +45,8 @@ Feedback is provided in terms of heuristic function
 <p> Lopp Step -2 and Step-3  until we achieve the score to be Zero to achieve Global Minima.</p>
 
 ## PROGRAM:
+<br>
+
 ```
 
 import random
@@ -79,9 +87,13 @@ SimpleHillClimbing()
 ```
 
 <hr>
+<br>
 <h2>Sample Input and Output</h2>
+<br>
 <h2>Sample String:</h2> Artificial Intelligence
+<br>
 <h2>Output:</h2>
+<br>
 Score: 643  Solution :  8RzF:oG ]%;CPORRMe!zGvk<br>
 Score: 609  Solution :  8RzF:oG ]%;CPqRRMe!zGvk<br>
 Score: 604  Solution :  8RzF:oG ]%;CPqRRMe!zGqk<br>
